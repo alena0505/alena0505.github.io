@@ -93,3 +93,10 @@ p.muted {
     height: auto !important;
     display: block;
 }
+.block p.muted {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    word-break: break-word;
+    max-height: none;
+}
