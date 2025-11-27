@@ -84,8 +84,16 @@
     .main{padding-top:12px}
   }
 
-.main p, .muted {
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    max-width: 100%;
+.muted {
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    display: block;
+}
+
+.block {
+    min-width: 0; /* Важно для flex/grid контейнеров */
+}
+.block p {
+    word-break: break-word;
 }
