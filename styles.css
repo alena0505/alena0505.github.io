@@ -83,3 +83,9 @@
     .sidebar{border-right:none;border-bottom:1px solid #eef2f6;padding-bottom:16px}
     .main{padding-top:12px}
   }
+
+.main p, .muted {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+}
