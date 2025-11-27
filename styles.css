@@ -84,16 +84,12 @@
     .main{padding-top:12px}
   }
 
-.muted {
-    white-space: normal;
-    overflow: visible;
-    text-overflow: clip;
+p.muted {
+    white-space: normal !important;
+    text-overflow: clip !important;
+    overflow: visible !important;
+    word-wrap: break-word !important;
+    max-height: none !important;
+    height: auto !important;
     display: block;
-}
-
-.block {
-    min-width: 0; /* Важно для flex/grid контейнеров */
-}
-.block p {
-    word-break: break-word;
 }
